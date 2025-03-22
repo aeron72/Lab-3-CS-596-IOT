@@ -1,8 +1,18 @@
 # Lab-3-CS-596-IOT
 
+Members(Solo): Aeron Flores
+
+Video Demo Link: https://youtube.com/shorts/TFic_ymkoD0?feature=share
+
+Top Down Image
+![TempMoist](https://github.com/user-attachments/assets/465c6788-7763-4d13-b9dc-94fc7fe452cd)
+
+
 This project uses an ESP32 development board with a DHT20 sensor to read real-time temperature and humidity data, and sends the data to a Flask server hosted on an AWS EC2 instance. The server logs and displays the data on a web dashboard, updating every few seconds.
 
 ---
+
+
 
 ## 🧠 Components
 
@@ -113,16 +123,3 @@ platformio run --target upload
 Check the serial monitor to verify Wi-Fi connection and data transmission.
 
 ---
-
-## 📷 Optional: Add Screenshot
-
-You can include a screenshot of the dashboard or serial output to show live data streaming.
-
----
-
-## 🤝 Credits
-
-- [DFRobot DHT20 Library](https://github.com/DFRobot/DFRobot_DHT20)
-- [ESP32 Arduino Core](https://github.com/espressif/arduino-esp32)
-- [PlatformIO](https://platformio.org/)
-- [Flask](https://flask.palletsprojects.com/)
